@@ -1,0 +1,11 @@
+<div class="projects">
+    <h3><i class="fa fa-tasks" aria-hidden="true"> {{name}}</i></h3>
+
+<ul>
+    <li
+        *ngFor="let list of projects">
+        <h4>{{list.title}}</h4>
+        <div>{{list.description}}</div>
+    </li>
+</ul>
+</div>

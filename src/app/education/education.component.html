@@ -1,0 +1,12 @@
+<div class="education">
+    <h3><i class="fa fa-graduation-cap" aria-hidden="true"> {{name}}</i></h3>
+
+<ul>
+    <li
+        *ngFor="let item of education">
+        <h4>{{item.program}}</h4>
+        <div><i class="fa fa-calendar" aria-hidden="true"> {{item.from}}-{{item.to}}</i></div>
+        <div><i class="fa fa-university" aria-hidden="true"> {{item.school}}</i></div>
+    </li>
+</ul>
+</div>
