@@ -1,5 +1,13 @@
 # Akash
 
+Summary:
+Tools used: HTML, CSS, Angular 2+ and JavaScript
+-In this project, I have created multiple components like Heading,
+Social media section, Objective, Experience, Education, etc.
+They are included in a parent component and data is passed to them
+as input.
+My resume data is hosted in GitHub gist in json format.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
